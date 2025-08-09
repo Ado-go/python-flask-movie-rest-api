@@ -1,22 +1,22 @@
-# python-flask-movie-rest-api
+# Python-flask-movie-rest-api
 
-This project is a simple flask rest API for movies. \
-The data are not stored permanently.
+This project is a simple Flask REST API for movies.
+The data is not stored permanently.
 
-# RUNNING
+# Installation
 
-Option 1 
-1. Clone repository 
-2. Use docker(described below)
+### Option 1  
+1. Clone the repository.  
+2. Use Docker (described below).  
 
-Option 2
-1. Clone repository
-2. pip install flask 
-3. run main.py
+### Option 2  
+1. Clone the repository.  
+2. Run `pip install flask`.  
+3. Run `main.py`.  
 
-After you successfully start the API use https://www.postman.com/ for easy GET, POST and PUT requests
+After you successfully start the API, use [Postman](https://www.postman.com/) for easy GET, POST, and PUT requests.
 
-# ENDPOINTS
+# Endpoints
 
 GET http://127.0.0.1:5000/movies
 
@@ -88,11 +88,11 @@ RESPONSE
   "release_year": 2020
 }
 ```
-# DOCKER
+# Docker
 This project also contains Dockerfile.
 
-1. Create image
-2. Run container
+1. Create the image
+2. Run the container
 
 To create an image run:
 ```
